@@ -1,0 +1,18 @@
+.thumb-img {
+  height: 50px;
+  width: 50px;
+  opacity: 0.5;
+}
+.thumb-img-active {
+  height: 50px;
+  width: 50px;
+  opacity: 1;
+}
+.thumbs {
+  margin-right: 10px;
+}
+
+.button {
+  border-width: 0;
+  background-color: transparent;
+}

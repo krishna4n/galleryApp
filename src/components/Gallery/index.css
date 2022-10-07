@@ -1,0 +1,35 @@
+/* Write your code here. */
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.image-card {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.img {
+  width: 50vw;
+}
+.heading {
+  align-self: flex-start;
+  font-size: 16px;
+  color: #1e293b;
+}
+.description {
+  align-self: flex-start;
+  font-size: 10px;
+  color: #64748b;
+}
+.thumbnail-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
